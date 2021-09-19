@@ -1,0 +1,4 @@
+https://www.tinkercad.com/things/c4LpbjbG3sd-fabulous-kup-gogo/editel?sharecode=Rk_5naQSRKhlzrpcRNGASWHu4EvmaPJofS-lvOBfbyg
+
+17/09/2021: Creación de matriz 8x8 primer intento
+18/09/2021: Integracion de los RGB y diversos chips (Probablemente el diseño sufra cambios en el proceso)

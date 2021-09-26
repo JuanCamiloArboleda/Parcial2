@@ -14,26 +14,18 @@ int main()
     cin>>altomatrix;
     cout<<"ancho de la matriz: "<<endl;
     cin>>anchomatrix;
-    int matrix[altomatrix][anchomatrix]; //matrix 16x16
+    int matrix[altomatrix][anchomatrix], matrixrojo[alto][ancho],matrixazul[]; //matrix 16x16
     int recuentoancho=0, recuentoalto=0;
     recuentoancho = ancho/anchomatrix;
     recuentoalto = alto/altomatrix;
-    for (int z=0;z<altomatrix*anchomatrix;z++){
-        for (int x=0;x<recuentoancho;x++){  //recorrer imagen
-            for (int y=0;y<recuentoalto;y++){
+        for (int x=0;x<alto;x++){  //recorrer imagen
+            for (int y=0;y<ancho;y++){
                 R=R+im.pixelColor(x+(columna*recuentoalto),y+(renglon*recuentoancho)).red();
                 G=G+im.pixelColor(x+(columna*recuentoalto),y+(renglon*recuentoancho)).green();
                 B=B+im.pixelColor(x+(columna*recuentoalto),y+(renglon*recuentoancho)).blue();
 
             }
-        renglon+=1;
         }
-
-     if (renglon==altomatrix){
-             columna+=1;
-             renglon=0;
-     }
-    }
     return 0;
 }
 

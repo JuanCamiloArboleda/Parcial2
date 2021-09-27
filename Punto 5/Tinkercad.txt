@@ -1,0 +1,6 @@
+https://www.tinkercad.com/things/c4LpbjbG3sd
+
+17/09/2021: Creación de matriz 8x8 primer intento
+18/09/2021: Integracion de los RGB y diversos chips (Probablemente el diseño sufra cambios en el proceso)
+19/09/2021: Cambio de RGB a LEDs Neo pixel y de 8x8 a 16x16
+21/09/2021: Cambio de link para uno en el cual solo se pueda ver el diseño dado 

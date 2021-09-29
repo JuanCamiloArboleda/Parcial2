@@ -83,9 +83,9 @@ void sobremuestreo::submuestro()
         for(int w=0; w<ancho; w++){
             for(int x=0+(w*recuentoancho2);x<recuentoancho2+(w*recuentoancho2);x++){
                 for(int y=0+(z*recuentoalto2); y<recuentoalto2+(z*recuentoalto2);y++){
-                    matrixrojo[x][y]=im.pixelColor(z,w).red();
-                    matrixverde[x][y]=im.pixelColor(z,w).green();
-                    matrixazul[x][y]=im.pixelColor(z,w).blue();
+                    matrixrojo[x][y]=im.pixelColor(w,z).red();
+                    matrixverde[x][y]=im.pixelColor(w,z).green();
+                    matrixazul[x][y]=im.pixelColor(w,z).blue();
                     archivo<<"led.setPixelColor("<<contador<<","<<matrixrojo[x][y]<<","<<matrixverde[x][y]<<","<<matrixazul[x][y]<<");";
                     archivo<<"\n";
                     contador++;
